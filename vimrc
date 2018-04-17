@@ -13,3 +13,9 @@ augroup vimrcEx
     \   exe "normal g`\"" |
     \ endif
 augroup END
+
+set number relativenumber
+
+set ignorecase smartcase
+set hlsearch
+nnoremap <CR> :nohlsearch<CR>
