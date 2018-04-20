@@ -64,3 +64,5 @@ map <Down> :echo "Discipline yourself!"<CR>
 
 let g:vimwiki_list = [{'path': '~/.vim/vimwiki'}]
 map <Leader><CR> :VimwikiVSplitLink<CR>
+
+map <Leader>n :NERDTreeToggle<CR>
