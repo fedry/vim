@@ -5,8 +5,11 @@ execute pathogen#infect()
 syntax on
 filetype plugin on
 
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
+:set t_Co=256 " 256 colors
+:set background=dark
+:color grb256
 
 augroup vimrcEx
   autocmd BufReadPost *
@@ -66,3 +69,5 @@ let g:vimwiki_list = [{'path': '~/.vim/vimwiki'}]
 map <Leader><CR> :VimwikiVSplitLink<CR>
 
 map <Leader>n :NERDTreeToggle<CR>
+map <Leader>rt :!clear && bundle exec rspec %<CR>
+map <Leader>rb :!clear && bundle exec cucumber<CR>
