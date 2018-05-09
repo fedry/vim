@@ -1,6 +1,0 @@
-theme color: #0f75bc
-
-migrate db sync push to glcworld.co.id:
-https://glcworld.co.id
-CLC+FlzGqTSYJRu8FpRda13liQ060Hur
-

@@ -7,9 +7,9 @@ filetype plugin on
 
 "set background=dark
 "colorscheme solarized
-:set t_Co=256 " 256 colors
-:set background=dark
-:color grb256
+set t_Co=256
+set background=dark
+colorscheme grb256
 
 augroup vimrcEx
   autocmd BufReadPost *
